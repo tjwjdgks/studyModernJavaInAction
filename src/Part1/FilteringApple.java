@@ -1,9 +1,8 @@
-package Chapter1;
+package Part1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 import java.util.function.Predicate;
 
 public class FilteringApple {
@@ -93,5 +92,4 @@ public class FilteringApple {
             return String.format("%s %d", color, weight);
         }
     }
-
 }
