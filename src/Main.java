@@ -6,9 +6,12 @@ import Part4.JavaWithOptional;
 import Part4.NewCalendarAndTime;
 
 import javax.tools.JavaCompiler;
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ForkJoinPool;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -19,6 +22,6 @@ public class Main {
     private static List<Dish> menu = Dish.menu;
 
     public static void main(String[] args) throws InterruptedException {
-        NewCalendarAndTime.practice();
+
     }
 }
